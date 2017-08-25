@@ -29,7 +29,7 @@ def insert(data):
 		conn.close()
 		return 1
 	return 0			
-#data=['aa','kamran@gmail.com','abc','sdkd']
+#data=['aa','swechhajha12@gmail.com','abc','sdkd']
 #print(insert(data))
 app = Flask(__name__)
 app.secret_key = 'some_secret'
